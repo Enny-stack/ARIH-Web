@@ -224,25 +224,31 @@
       <div class="split">
         <div class="card">
           <h3>Send a message</h3>
-          <form class="form" action="#" method="post">
-            <input class="input" name="name" placeholder="Your name" required />
-            <input class="input" name="email" placeholder="Email address" type="email" required />
-            <select class="input" name="topic" required>
-              <option value="" disabled selected>Select topic</option>
-              <option>General enquiry</option>
-              <option>Partnership</option>
-              <option>Media</option>
-              <option>Application support</option>
-            </select>
-            <textarea name="message" placeholder="Your message" required></textarea>
-            <button class="btn primary" type="submit">Send</button>
-          </form>
+          <iframe
+  data-tally-src="https://tally.so/r/NplNJl?transparentBackground=1"
+  loading="lazy"
+  width="100%"
+  height="720"
+  frameborder="0"
+  marginheight="0"
+  marginwidth="0"
+  title="ARIH Contact Form">
+</iframe>
 
-          <div class="notice" style="margin-top:12px">
-            This form is a demo until you connect it to Formspree / Tally / Typeform.
-          </div>
-        </div>
-
+<script>
+  (function () {
+    var d = document, w = "https://tally.so/widgets/embed.js";
+    if (typeof Tally !== "undefined") {
+      Tally.loadEmbeds();
+      return;
+    }
+    if (d.querySelector('script[src="' + w + '"]')) return;
+    var s = d.createElement("script");
+    s.src = w;
+    s.async = true;
+    d.body.appendChild(s);
+  })();
+</script>
         <div class="card">
           <h3>Contact details</h3>
           <ul class="list">
