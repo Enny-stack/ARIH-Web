@@ -31,9 +31,12 @@ header{
 .nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:12px}
 .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.2px}
 .logo{
-  width:34px;height:34px;border-radius:10px;background:
-    radial-gradient(120% 120% at 20% 20%, #7dd3fc 0%, #1d4ed8 55%, #0b5fff 100%);
-  box-shadow: 0 10px 22px rgba(11,95,255,.28)
+  height:38px;
+  width:auto;
+  display:block;
+  border-radius:0;
+  background:none;
+  box-shadow:none;
 }
 .navlinks{display:flex;gap:16px;align-items:center}
 .navlinks a{font-weight:600;color:#0f172a;font-size:14px}
