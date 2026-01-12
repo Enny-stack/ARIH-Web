@@ -29,10 +29,16 @@ header{
   border-bottom:1px solid var(--line)
 }
 .nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:12px} 
-.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.2px}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-weight:800;
+  letter-spacing:.2px;
+}
 
 .logo{ 
-  height:38px; 
+  height:42px; 
   width:auto; 
   display:block;
   border-radius:0; 
