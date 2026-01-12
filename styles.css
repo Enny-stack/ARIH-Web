@@ -28,26 +28,16 @@ header{
   backdrop-filter:saturate(180%) blur(10px);
   border-bottom:1px solid var(--line)
 }
-.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:12px}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:12px} 
 .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.2px}
 
-.logo{
-  height:40px;
-  width:auto;
+.logo{ 
+  height:38px; 
+  width:auto; 
   display:block;
-
-  padding:6px;
-  background:#fff;
-  border:1px solid var(--line);
-  border-radius:12px;
-  box-shadow: 0 10px 20px rgba(2,6,23,.06);
-
-  transition: transform .2s ease, box-shadow .2s ease;
-}
-
-.brand:hover .logo{
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 14px 26px rgba(2,6,23,.10);
+  border-radius:0; 
+  background:none; 
+  box-shadow:none;
 }
 
 .navlinks{display:flex;gap:16px;align-items:center}
