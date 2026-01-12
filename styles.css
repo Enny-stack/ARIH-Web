@@ -38,6 +38,7 @@ header{
   background:none;
   box-shadow:none;
 }
+
 .navlinks{display:flex;gap:16px;align-items:center}
 .navlinks a{font-weight:600;color:#0f172a;font-size:14px}
 .navlinks a.active{color:var(--brand)}
