@@ -1,21 +1,14 @@
 :root{
-  /* Core palette */
-  --navy:#0B1F3A;       /* primary text / headings */
-  --green:#0F3D2E;      /* accent / buttons */
-  --gold:#C9A227;       /* tiny highlights */
-  --bg:#FFFFFF;         /* background */
-  --card:#F6F8FA;       /* soft off-white sections/cards */
-  --line:#E6EAF0;       /* borders */
-
-  /* Text */
+  --navy:#0B1F3A;     
+  --green:#0F3D2E;      
+  --gold:#C9A227;       
+  --bg:#FFFFFF;         
+  --card:#F6F8FA;       
+  --line:#E6EAF0;      
   --text: var(--navy);
   --muted:#506070;
-
-  /* Brand mapping (so you don’t rewrite your whole CSS) */
   --brand: var(--green);
   --brand2: var(--navy);
-
-  /* Existing layout tokens */
   --shadow: 0 12px 30px rgba(2,6,23,.08);
   --radius:18px;
   --max: 1120px;
