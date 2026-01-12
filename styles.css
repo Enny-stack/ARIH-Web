@@ -4,11 +4,14 @@
   --gold:#C9A227;       
   --bg:#FFFFFF;         
   --card:#F6F8FA;       
-  --line:#E6EAF0;      
+  --line:#E6EAF0;   
+  
   --text: var(--navy);
   --muted:#506070;
+  
   --brand: var(--green);
   --brand2: var(--navy);
+  
   --shadow: 0 12px 30px rgba(2,6,23,.08);
   --radius:18px;
   --max: 1120px;
