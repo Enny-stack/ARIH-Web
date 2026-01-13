@@ -240,11 +240,15 @@ small{color:#94a3b8}
 .footer-logos{
   display:flex;
   gap:10px;
-  align-items:left;
+  align-items:center;
+  flex: 0 0 auto;
 }
 
 .footer-logos img{
-  height:25px;
+  height:28px;         
   width:auto;
+  max-width:120px;      
+  object-fit:contain;
   display:block;
 }
+
