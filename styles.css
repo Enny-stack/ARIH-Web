@@ -234,3 +234,6 @@ small{color:#94a3b8}
   font-weight:700;
   font-size:12px;
 }
+.img-fluid{width:100%;height:auto;display:block}
+.rounded{border-radius:18px}
+.shadow{box-shadow: 0 12px 30px rgba(2,6,23,.10)}
