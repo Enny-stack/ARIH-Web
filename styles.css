@@ -237,3 +237,14 @@ small{color:#94a3b8}
 .img-fluid{width:100%;height:auto;display:block}
 .rounded{border-radius:18px}
 .shadow{box-shadow: 0 12px 30px rgba(2,6,23,.10)}
+.footer-logos{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.footer-logos img{
+  height:34px;
+  width:auto;
+  display:block;
+}
