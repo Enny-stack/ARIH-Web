@@ -149,3 +149,14 @@ small{color:#94a3b8}
   .navlinks.open{display:flex}
   .mobile-toggle{display:inline-flex}
 }
+.table-wrap{overflow:auto;border-radius:16px}
+.flag{
+  width:22px;height:16px;
+  border-radius:3px;
+  border:1px solid var(--line);
+  display:inline-block;
+  vertical-align:middle;
+}
+.winners-table td{vertical-align:top}
+.winners-table td:nth-child(1){font-weight:700}
+.winners-table td:nth-child(2){white-space:nowrap}
