@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Gallery | ARIH</title>
+  <meta name="description" content="Gallery of ARIH activities, cohorts, and events."/>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" type="image/svg+xml" href="assets/arih-mark.svg"/>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="ARIH Home">
+        <img class="logo" src="assets/arih-afrex-logo.png" alt="ARIH and Afreximbank logos">
+        <span>African Research & Innovation Hub</span>
+      </a>
+
+      <nav class="navlinks" data-navlinks>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programmes.html">Programmes</a>
+        <a href="calls.html">Calls</a>
+        <a href="impact.html">Impact</a>
+        <a href="events.html">Events</a>
+        <a href="resources.html">Resources</a>
+        <a href="partners.html">Partners</a>
+        <a class="active" href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="cta">
+        <a class="btn" href="calls.html">View Calls</a>
+        <a class="btn primary" href="https://tally.so/r/ja647a" target="_blank" rel="noopener">Apply</a>
+        <button class="btn mobile-toggle" data-mobile-toggle aria-label="Open menu">Menu</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <h2>Gallery</h2>
+      <p>Highlights from ARIH activities, cohorts, and events.</p>
+
+      <div class="gallery-grid">
+        <!-- Replace/extend these with your real files -->
+        <a class="g-item" href="assets/images/gallery/01.jpg" target="_blank" rel="noopener">
+          <img src="assets/images/gallery/01.jpg" alt="ARIH gallery image 1" loading="lazy">
+          <span class="g-cap">ARIH Highlight</span>
+        </a>
+
+        <a class="g-item" href="assets/images/gallery/02.jpg" target="_blank" rel="noopener">
+          <img src="assets/images/gallery/02.jpg" alt="ARIH gallery image 2" loading="lazy">
+          <span class="g-cap">ARIH Highlight</span>
+        </a>
+
+        <a class="g-item" href="assets/images/gallery/03.jpg" target="_blank" rel="noopener">
+          <img src="assets/images/gallery/03.jpg" alt="ARIH gallery image 3" loading="lazy">
+          <span class="g-cap">ARIH Highlight</span>
+        </a>
+
+        <a class="g-item" href="assets/images/gallery/04.jpg" target="_blank" rel="noopener">
+          <img src="assets/images/gallery/04.jpg" alt="ARIH gallery image 4" loading="lazy">
+          <span class="g-cap">ARIH Highlight</span>
+        </a>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="card">
+        <h3>Want your work featured?</h3>
+        <p style="color:var(--muted);margin:0 0 12px;">
+          Share ARIH event photos and innovation highlights for publishing.
+        </p>
+        <a class="btn" href="contact.html">Contact ARIH</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footgrid">
+      <div>
+        <div class="brand" style="margin-bottom:10px">
+          <img src="assets/arih-mark.svg" width="34" height="34" alt="ARIH"/>
+          <div>
+            <div style="font-weight:900">African Research & Innovation Hub</div>
+            <small>Connecting research, innovation, and capital across Africa.</small>
+          </div>
+        </div>
+        <small>© <span id="y"></span> ARIH. All rights reserved.</small>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
