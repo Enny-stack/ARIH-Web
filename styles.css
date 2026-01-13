@@ -251,4 +251,25 @@ small{color:#94a3b8}
   object-fit:contain;
   display:block;
 }
+/* Footer address readability */
+.footer .footgrid{
+  align-items:start;
+}
+
+.footer .footer-address{
+  margin-top:12px;
+  line-height:1.7;
+  max-width:520px;
+  color: rgba(255,255,255,.82);   /* brighter */
+}
+
+.footer .footer-address strong{
+  color: rgba(255,255,255,.92);   /* even brighter for labels */
+}
+
+.footer .footer-address .title{
+  font-weight:900;
+  color: rgba(255,255,255,.95);
+  margin-bottom:6px;
+}
 
