@@ -237,24 +237,3 @@ small{color:#94a3b8}
 .img-fluid{width:100%;height:auto;display:block}
 .rounded{border-radius:18px}
 .shadow{box-shadow: 0 12px 30px rgba(2,6,23,.10)}
-header{
-  position: relative;
-  background: url("assets/images/home/nav-bg.jpg") center/cover no-repeat;
-}
-
-header::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  background: rgba(255,255,255,.82);
-  pointer-events:none;
-}
-
-header .container{
-  position: relative;
-  z-index: 1;
-}
-
-.nav{
-  background: transparent;
-}
