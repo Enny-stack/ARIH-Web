@@ -160,3 +160,6 @@ small{color:#94a3b8}
 .winners-table td{vertical-align:top}
 .winners-table td:nth-child(1){font-weight:700}
 .winners-table td:nth-child(2){white-space:nowrap}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{border-bottom:1px solid var(--line);padding:12px;text-align:left}
+.table th{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
