@@ -284,7 +284,7 @@ small{color:#94a3b8}
 
 .map-embed iframe{
   width:100% !important;
-  height:420px;           /* increase/decrease */
+  height:480px;           /* increase/decrease */
   border:0;
   display:block;
 }
