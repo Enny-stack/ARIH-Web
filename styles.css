@@ -163,3 +163,34 @@ small{color:#94a3b8}
 .table{width:100%;border-collapse:collapse}
 .table th,.table td{border-bottom:1px solid var(--line);padding:12px;text-align:left}
 .table th{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.table-wrap{overflow:auto;border-radius:16px}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{
+  border-bottom:1px solid var(--line);
+  padding:12px;
+  text-align:left;
+}
+.table th{
+  font-size:13px;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+  color:var(--muted);
+  background: #fff;
+  position: sticky;
+  top: 0;
+}
+
+/* Winners table tweaks */
+.winners-table td{vertical-align:top}
+.winners-table td:nth-child(1){font-weight:700;min-width:240px}
+.winners-table td:nth-child(2){white-space:nowrap;min-width:60px}
+.winners-table td:nth-child(3){min-width:260px}
+.winners-table td:nth-child(4){min-width:420px}
+
+.flag{
+  width:22px;height:16px;
+  border-radius:3px;
+  border:1px solid var(--line);
+  display:inline-block;
+  vertical-align:middle;
+}
