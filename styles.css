@@ -323,35 +323,28 @@ a:hover{ text-decoration: underline; }
 .card p, .card small, .card .muted, .card .notice{ color:#475569; }
 .card a{ color:#0b1220; }
 
-.focus-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
-  gap:12px;
-}
-
-.focus-item{
+/* One square box for "What we do" */
+.focus-box{
   border:1px solid var(--line);
   border-radius:18px;
   background:#fff;
-  padding:14px;
-  aspect-ratio: 1 / 1;       
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
+  padding:16px;
+  aspect-ratio: 1 / 1;     /* square */
+  overflow:auto;           /* scroll if content is too much */
 }
 
-.focus-item h4{
-  margin:0 0 10px;
-  font-size:16px;
-}
-
-.focus-item p{
+/* List styling inside the box */
+.focus-list{
   margin:0;
-  color:var(--muted);
-  line-height:1.55;
+  padding-left:18px;
+}
 
-  display:-webkit-box;
-  -webkit-line-clamp:5;
-  -webkit-box-orient:vertical;
-  overflow:hidden;
+.focus-list li{
+  margin:0 0 10px;
+  color:#475569;           /* readable inside white box */
+  line-height:1.55;
+}
+
+.focus-list li b{
+  color:#0b1220;
 }
