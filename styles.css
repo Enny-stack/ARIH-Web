@@ -287,43 +287,6 @@ small{color:#94a3b8}
   border:0;
   display:block;
 }
-body{
-  background:#071a2a; 
-  color: rgba(255,255,255,.92);
-}
-
-.section{
-  color: rgba(255,255,255,.92);
-}
-
-.card{
-  background:#ffffff;
-  color:#0b1220;
-}
-:root{
-  --text: rgba(255,255,255,.92);
-  --muted: rgba(255,255,255,.72);
-  --line: rgba(255,255,255,.14);
-}
-
-body{ color: var(--text); }
-
-p, small, .muted, .kicker, .notice{ color: var(--muted); }
-
-a{ color: rgba(255,255,255,.9); }
-a:hover{ text-decoration: underline; }
-
-.section h1, .section h2, .section h3, .section h4{ color: var(--text); }
-
-.card{
-  background:#ffffff;
-  color:#0b1220;
-  border:1px solid rgba(2,6,23,.08);
-}
-.card p, .card small, .card .muted, .card .notice{ color:#475569; }
-.card a{ color:#0b1220; }
-
-/* One square box for "What we do" */
 .focus-box{
   border:1px solid var(--line);
   border-radius:18px;
