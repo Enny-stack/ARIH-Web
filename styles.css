@@ -251,7 +251,6 @@ small{color:#94a3b8}
   object-fit:contain;
   display:block;
 }
-/* Footer address readability */
 .footer .footgrid{
   align-items:start;
 }
@@ -260,11 +259,11 @@ small{color:#94a3b8}
   margin-top:12px;
   line-height:1.7;
   max-width:520px;
-  color: rgba(255,255,255,.82);   /* brighter */
+  color: rgba(255,255,255,.82);   
 }
 
 .footer .footer-address strong{
-  color: rgba(255,255,255,.92);   /* even brighter for labels */
+  color: rgba(255,255,255,.92);  
 }
 
 .footer .footer-address .title{
@@ -284,16 +283,46 @@ small{color:#94a3b8}
 
 .map-embed iframe{
   width:100% !important;
-  height:480px;           /* increase/decrease */
+  height:480px;          
   border:0;
   display:block;
 }
 body{
-  background: radial-gradient(1200px 600px at 20% 0%, rgba(13,110,253,.12), transparent 60%),
-              radial-gradient(900px 500px at 90% 20%, rgba(34,197,94,.10), transparent 55%),
-              #f7f9fc;
+  background:#071a2a; 
+  color: rgba(255,255,255,.92);
 }
-/* Square tiles for "What we do" */
+
+.section{
+  color: rgba(255,255,255,.92);
+}
+
+.card{
+  background:#ffffff;
+  color:#0b1220;
+}
+:root{
+  --text: rgba(255,255,255,.92);
+  --muted: rgba(255,255,255,.72);
+  --line: rgba(255,255,255,.14);
+}
+
+body{ color: var(--text); }
+
+p, small, .muted, .kicker, .notice{ color: var(--muted); }
+
+a{ color: rgba(255,255,255,.9); }
+a:hover{ text-decoration: underline; }
+
+.section h1, .section h2, .section h3, .section h4{ color: var(--text); }
+
+.card{
+  background:#ffffff;
+  color:#0b1220;
+  border:1px solid rgba(2,6,23,.08);
+}
+.card p, .card small, .card .muted, .card .notice{ color:#475569; }
+.card a{ color:#0b1220; }
+
 .focus-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
@@ -305,7 +334,7 @@ body{
   border-radius:18px;
   background:#fff;
   padding:14px;
-  aspect-ratio: 1 / 1;         /* makes it square */
+  aspect-ratio: 1 / 1;       
   display:flex;
   flex-direction:column;
   justify-content:flex-start;
@@ -321,7 +350,6 @@ body{
   color:var(--muted);
   line-height:1.55;
 
-  /* keeps it short so it doesn’t overflow */
   display:-webkit-box;
   -webkit-line-clamp:5;
   -webkit-box-orient:vertical;
