@@ -287,16 +287,16 @@ small{color:#94a3b8}
   border:0;
   display:block;
 }
+
 .focus-box{
   border:1px solid var(--line);
   border-radius:18px;
   background:#fff;
   padding:16px;
-  aspect-ratio: 1 / 1;     /* square */
-  overflow:auto;           /* scroll if content is too much */
+  aspect-ratio: 1 / 1;    
+  overflow:auto;           
 }
 
-/* List styling inside the box */
 .focus-list{
   margin:0;
   padding-left:18px;
@@ -304,7 +304,7 @@ small{color:#94a3b8}
 
 .focus-list li{
   margin:0 0 10px;
-  color:#475569;           /* readable inside white box */
+  color:#475569;          
   line-height:1.55;
 }
 
