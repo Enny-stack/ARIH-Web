@@ -311,67 +311,52 @@ small{color:#94a3b8}
 .focus-list li b{
   color:#0b1220;
 }
-body{
-  background:#071a2a;  /* deep navy */
+/* =========================
+   Dark Theme (safe override)
+   ========================= */
+.theme-dark{
+  background:#071a2a;
   color: rgba(255,255,255,.92);
 }
 
-.section{
-  color: rgba(255,255,255,.92);
+.theme-dark .hero{
+  background:
+    radial-gradient(1000px 400px at 20% 0%, rgba(15,61,46,.16), transparent 60%),
+    radial-gradient(900px 380px at 80% 10%, rgba(201,162,39,.14), transparent 55%),
+    #071a2a;
 }
 
-.card{
+/* White cards/panels still readable */
+.theme-dark .card,
+.theme-dark .panel{
   background:#ffffff;
   color:#0b1220;
-}
-/* Dark background fixes */
-:root{
-  --text: rgba(255,255,255,.92);
-  --muted: rgba(255,255,255,.72);
-  --line: rgba(255,255,255,.14);
+  border:1px solid rgba(2,6,23,.08);
 }
 
-body{ color: var(--text); }
+.theme-dark .card p,
+.theme-dark .card small,
+.theme-dark .card .muted,
+.theme-dark .panel p,
+.theme-dark .panel small,
+.theme-dark .panel .muted{
+  color:#475569;
+}
 
-p, small, .muted, .kicker, .notice{ color: var(--muted); }
+/* Sections text on dark background */
+.theme-dark .section{
+  color: rgba(255,255,255,.92);
+}
+.theme-dark .section p{
+  color: rgba(255,255,255,.74);
+}
+.theme-dark .section h1,
+.theme-dark .section h2,
+.theme-dark .section h3,
+.theme-dark .section h4{
+  color: rgba(255,255,255,.95);
+}
 
 /* Links on dark background */
-a{ color: rgba(255,255,255,.9); }
-a:hover{ text-decoration: underline; }
-
-/* Sections and headings */
-.section h1, .section h2, .section h3, .section h4{ color: var(--text); }
-
-.card{
-  background:#ffffff;
-  color:#0b1220;
-  border:1px solid rgba(2,6,23,.08);
-}
-.card p, .card small, .card .muted, .card .notice{ color:#475569; }
-.card a{ color:#0b1220; }
-.card, .panel{
-  background:#ffffff;
-  color:#0b1220;
-}
-
-.card h1, .card h2, .card h3, .card h4, .card h5, .card h6,
-.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6{
-  color:#0b1220 !important;
-}
-
-.card p, .card small, .card .muted, .card .kicker, .card .notice,
-.panel p, .panel small, .panel .muted, .panel .kicker, .panel .notice{
-  color:#475569 !important;
-}
-
-.panel .stat b{
-  color:#0b1220 !important;
-}
-.panel .stat span{
-  color:#475569 !important;
-}
-
-.panel .stat{
-  background:#f1f5f9;
-  border:1px solid rgba(2,6,23,.08);
-}
+.theme-dark a{ color: rgba(255,255,255,.92); }
+.theme-dark a:hover{ color: #ffffff; text-decoration: underline; }
