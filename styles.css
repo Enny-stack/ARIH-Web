@@ -47,8 +47,22 @@ header{
 }
 
 .navlinks{display:flex;gap:16px;align-items:center}
-.navlinks a{font-weight:600;color:#0f172a;font-size:14px}
-.navlinks a.active{color:var(--brand)}
+.navlinks a{
+  font-weight:700;
+  color: var(--green);      /* same green as Apply */
+  font-size:14px;
+}
+
+.navlinks a:hover{
+  color:#0C3427;
+  text-decoration: underline;
+}
+
+.navlinks a.active{
+  color: var(--green);
+  border-bottom: 2px solid var(--green);
+  padding-bottom: 4px;
+}
 .cta{display:flex;gap:10px;align-items:center}
 .btn{
   display:inline-flex;align-items:center;justify-content:center;
