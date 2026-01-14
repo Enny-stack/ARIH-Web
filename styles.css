@@ -293,3 +293,37 @@ body{
               radial-gradient(900px 500px at 90% 20%, rgba(34,197,94,.10), transparent 55%),
               #f7f9fc;
 }
+/* Square tiles for "What we do" */
+.focus-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+  gap:12px;
+}
+
+.focus-item{
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:#fff;
+  padding:14px;
+  aspect-ratio: 1 / 1;         /* makes it square */
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+}
+
+.focus-item h4{
+  margin:0 0 10px;
+  font-size:16px;
+}
+
+.focus-item p{
+  margin:0;
+  color:var(--muted);
+  line-height:1.55;
+
+  /* keeps it short so it doesn’t overflow */
+  display:-webkit-box;
+  -webkit-line-clamp:5;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
